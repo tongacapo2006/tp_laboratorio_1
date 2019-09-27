@@ -50,8 +50,9 @@ int hardcodearAlumnos( eAlumno vec[], int tam, int cantidad);
 void mostrarCarreras(eCarrera carreras[], int tam);
 void mostrarCarrera(eCarrera carrera);
 int cargarDescCarrera(int id, eCarrera carreras[], int tam, char desc[]);
-
+int menuInformes();
 int menu();
+void mostrarInformes(eAlumno alumnos[], int tam, eCarrera carreras[], int tamC);
 
 int main()
 {
@@ -88,13 +89,13 @@ int main()
             break;
 
         case 5:
-
             ordenarAlumnos(lista, TAM);
             break;
 
         case 6:
-            printf("Informes Alumno\n\n");
+            mostrarInformes(lista, TAM, carreras, TAMC);
             break;
+
         case 7:
             mostrarCarreras(carreras, TAMC);
             break;
@@ -321,7 +322,6 @@ eAlumno newAlumno(
     return al;
 }
 
-
 int bajaAlumno(eAlumno vec[], int tam, eCarrera carreras[], int tamC)
 {
     int todoOk = 0;
@@ -362,6 +362,7 @@ int bajaAlumno(eAlumno vec[], int tam, eCarrera carreras[], int tamC)
 
     return todoOk;
 }
+
 int ModificarAlumno(eAlumno vec[], int tam, eCarrera carreras[], int tamC)
 {
 
@@ -412,7 +413,6 @@ int ModificarAlumno(eAlumno vec[], int tam, eCarrera carreras[], int tamC)
     }
     return todoOk;
 }
-
 
 int hardcodearAlumnos( eAlumno vec[], int tam, int cantidad)
 {
@@ -470,6 +470,81 @@ int cargarDescCarrera(int id, eCarrera carreras[], int tam, char desc[]){
             break;
         }
     }
-
     return todoOk;
 }
+
+int menuInformes(){
+int opcion;
+system("cls");
+    printf("****** Informes *******\n\n");
+    printf("1-Mostrar Alumnos de una Carrera\n");
+    printf("2-Mostrar Alumnos por Carrera\n");
+    printf("3-Mostrar Cantidad de alumnos por Carrera\n");
+    printf("4-Mostrar La Carrera con mas inscriptos\n");
+    printf("5-Mostrar Mejor Promedio por Carrera\n");
+    printf("6-Mostrar Alumnos Varones\n");
+    printf("7-Mostrar Mujeres de Alguna Carrera\n");
+    printf("8-Mostrar Alumnos mayores a 30 de Licenciatura\n");
+    printf("9-Salir\n\n");
+    printf("Ingrese opcion: ");
+    scanf("%d", &opcion);
+
+    return opcion;
+}
+
+void mostrarInformes(eAlumno alumnos[], int tam, eCarrera carreras[], int tamC){
+
+
+    char salir = 'n';
+
+    do
+    {
+        switch( menuInformes())
+        {
+        case 1:
+           printf("Informe 1\n");
+            break;
+
+        case 2:
+              printf("Informe 2\n");
+            break;
+
+        case 3:
+              printf("Informe 3\n");
+            break;
+
+        case 4:
+             printf("Informe 4\n");
+            break;
+
+        case 5:
+
+              printf("Informe 5\n");
+            break;
+
+        case 6:
+             printf("Informe 6\n");
+            break;
+        case 7:
+              printf("Informe 7\n");
+            break;
+         case 8:
+              printf("Informe 8\n");
+            break;
+
+
+        case 9:
+            printf("Confirma salir?:");
+            fflush(stdin);
+            salir = getche();
+            break;
+
+        default:
+            printf("\nOpcion Invalida!\n\n");
+        }
+        system("pause");
+    }
+    while(salir == 'n');
+}
+
+

@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1569279092 source:c:\users\alumno\desktop\abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1569285938 source:c:\users\alumno\desktop\abmalumnoautoincremental\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1569633139 source:c:\users\alumno\desktop\abmalumnocarreras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1569881396 source:c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\abmalumnocarrerasinfo\abmalumnocarreras\alumno.c
+	"alumno.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1569881285 c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\abmalumnocarrerasinfo\abmalumnocarreras\alumno.h
+	"carreras.h"
+
+1569881498 c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\abmalumnocarrerasinfo\abmalumnocarreras\carreras.h
+
+1569881225 source:c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\abmalumnocarrerasinfo\abmalumnocarreras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"alumno.h"
+	"carreras.h"
+
+1569881550 source:c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\abmalumnocarrerasinfo\abmalumnocarreras\carreras.c
+	"carreras.h"
+	<stdio.h>
+	<string.h>
+

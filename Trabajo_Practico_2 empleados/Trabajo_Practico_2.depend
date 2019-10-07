@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1570236744 source:c:\users\alumno\desktop\al horno con papitas\trabajo_practico_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+
+1570297014 source:c:\users\alumno\desktop\trabajo_practico_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+
+1570462971 source:c:\users\usuario\desktop\trabajo_practico_2 final final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"empleados.h"
+
+1570462971 c:\users\usuario\desktop\trabajo_practico_2 final final\empleados.h
+

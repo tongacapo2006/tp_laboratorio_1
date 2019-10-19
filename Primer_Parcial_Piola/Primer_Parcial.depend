@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1570490547 source:d:\pablocapo\primer_parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1570491426 source:d:\pablocapo\primer_parcial\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+
+1570491426 d:\pablocapo\primer_parcial\clientes.h
+
+1571502089 source:c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\primer_parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"clientes.h"
+
+1571502089 c:\users\alumno\desktop\tp_laboratorio_1-master\tp_laboratorio_1-master\primer_parcial\clientes.h
+
+1571507577 source:c:\users\alumno\desktop\primer_parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+
